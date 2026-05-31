@@ -1,8 +1,6 @@
-# Submission 1: Heart Failure Prediction Pipeline
+# Heart Failure Prediction Pipeline
 
-Nama: Aldo Maretra Putra
-
-Username dicoding: aldomp7
+Author: Aldo Maretra Putra · [LinkedIn](https://linkedin.com/in/aldomrtr)
 
 | Kriteria | Keterangan |
 | ----------- | ----------- |

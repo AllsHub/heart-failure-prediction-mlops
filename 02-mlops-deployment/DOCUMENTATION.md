@@ -1,8 +1,6 @@
-# Submission 2: Heart Failure Prediction MLOps
+# Heart Failure Prediction MLOps
 
-Nama: Aldo Maretra Putra
-
-Username dicoding: aldomp7
+Author: Aldo Maretra Putra · [LinkedIn](https://linkedin.com/in/aldomrtr)
 
 | Kriteria | Keterangan |
 | ----------- | ----------- |
