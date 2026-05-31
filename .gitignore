@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Trained model binaries & heavy artifacts (regenerate locally)
+*.h5
+*.keras
+*.pkl
+*.tflite
+*.bin
+*.whl
+saved_model/
+serving_model/
+tfjs_model/
+mlruns/
+logs/
+*.tfrecord
+*.sqlite
+*.db
+
+# Archives
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db

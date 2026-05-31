@@ -1,0 +1,17 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'prometheus'
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['localhost:9090']
+
+  - job_name: 'heart_failure_model_monitoring'
+    scrape_interval: 5s
+    metrics_path: '/monitoring/prometheus/metrics'
+    scheme: 'https'
+    static_configs:
+      - targets: ['submission-mlops-production.up.railway.app']
+        labels:
+          group: 'production'
