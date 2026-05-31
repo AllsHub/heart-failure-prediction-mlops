@@ -1,4 +1,4 @@
-# 🫀 Heart Failure Prediction — End-to-End MLOps
+# Heart Failure Prediction — End-to-End MLOps
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow&logoColor=white)
 ![TFX](https://img.shields.io/badge/TFX-Pipeline-FF6F00?logo=tensorflow&logoColor=white)
@@ -13,11 +13,11 @@ This repository is organized in two stages that together tell one story: **(1)**
 
 ---
 
-## 📌 Problem
+## Problem
 
 Cardiovascular diseases are the leading cause of death worldwide, accounting for roughly **17.9 million deaths a year**. For patients in heart failure, early risk stratification can be the difference between timely intervention and a missed window. The goal here is an automated system that predicts the risk of a fatal event (`DEATH_EVENT`) from routinely collected clinical features, so care teams can prioritize high-risk patients.
 
-## 📊 Dataset
+## Dataset
 
 [**Heart Failure Clinical Records**](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) — 299 patient records, 12 predictor features + 1 binary target.
 
@@ -28,7 +28,7 @@ Cardiovascular diseases are the leading cause of death worldwide, accounting for
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Stage 1 — TFX Pipeline (`01-pipeline/`)
 
@@ -55,12 +55,12 @@ The blessed model is promoted to a production-style service:
 
 ---
 
-## 📈 Results
+## Results
 
 | Stage | Status | Validation Accuracy |
 |---|---|---|
-| Pipeline (Stage 1) | ✅ **BLESSED** | **82.22%** |
-| MLOps model (Stage 2) | ✅ **BLESSED** | **81.11%** |
+| Pipeline (Stage 1) | **BLESSED** | **82.22%** |
+| MLOps model (Stage 2) | **BLESSED** | **81.11%** |
 
 Both models cleared the evaluation gate (beating the baseline and the absolute threshold) and were exported as a `SavedModel` with a `serving_default` signature.
 
@@ -71,13 +71,13 @@ Both models cleared the evaluation gate (beating the baseline and the absolute t
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 `TensorFlow` · `TFX` · `TensorFlow Transform` · `KerasTuner` · `TensorFlow Serving` · `Docker` · `Railway` · `Prometheus` · `Grafana` · `Pandas`
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 heart-failure-prediction-mlops/
@@ -102,7 +102,7 @@ heart-failure-prediction-mlops/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 # 1. Clone
@@ -123,10 +123,9 @@ docker run -p 8501:8501 heart-failure-serving
 
 ---
 
-## 👤 Author
+## Author
 
-**Aldo Maretra Putra**
-Astronomy student & ML practitioner
-📧 aldomaretraputra7@gmail.com · 🤗 [aldomrtr](https://huggingface.co/aldomrtr)
+**Aldo Maretra Putra** — Astronomy undergraduate & ML/AI engineer
+[LinkedIn](https://linkedin.com/in/aldomrtr) · [GitHub](https://github.com/AllsHub)
 
 > Originally developed for Dicoding's *Machine Learning Operations (MLOps)* learning path, then restructured and documented for this portfolio.
